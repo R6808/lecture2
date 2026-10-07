@@ -416,7 +416,7 @@ warning - bin\types_demo.dart:70:43 - The '!' will have no effect because the re
 
 **图 4：`dart analyze` 输出 `No issues found!`**
 ——检查点 2 的直接证据：空安全无编译告警。
-【此处插入图片：images/04-dart-analyze-无告警.png】
+【此处插入图片：images/04-检查点-dart-analyze-无告警.png】
 
 **图 5：`dart --version` 与 `dart format` 结果**
 ——环境证据：Dart SDK 3.13.4；`Formatted 11 files (0 changed)` 说明代码符合官方格式规范。
@@ -424,11 +424,11 @@ warning - bin\types_demo.dart:70:43 - The '!' will have no effect because the re
 
 **图 6：独立研究任务 2（类型提升）的运行输出**
 ——展示局部变量、函数参数、private final 字段可提升，而 public final 字段不可提升的实验结果。
-【此处插入图片：images/06-类型提升研究输出.png】
+【此处插入图片：images/06-独立研究-类型提升验证.png】
 
 **图 7：Git 提交记录（`git log --oneline`）**
 ——按"创建工程 → 三组示例 → 自主实践 → 独立研究 → 文档"分步提交，提交说明规范。
-【此处插入图片：images/07-git-log.png】
+【此处插入图片：images/07-Git提交记录.png】
 
 ---
 
