@@ -1,0 +1,16 @@
+name: dart_basics
+description: 课堂作业二 · Dart 语言基础一 · 案例复现与自主实践（变量、类型、函数与控制流）。
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.13.4
+
+# Add regular dependencies here.
+dependencies:
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
+
